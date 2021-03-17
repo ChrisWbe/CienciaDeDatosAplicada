@@ -16,4 +16,16 @@
 ##
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
-
+import csv
+lista = []
+count = []
+with open('data.csv','r') as file:
+    x = csv.reader(file, delimiter='\t')
+    for data in x:
+        lista.append(data[0])
+        
+letters = sorted(list(set(lista)))
+for e in letters:
+    count.append(lista.count(e) )
+for x in range(len(letters)):
+    print(str(letters[x])+","+str(count[x])) 

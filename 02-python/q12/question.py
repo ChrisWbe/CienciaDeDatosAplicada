@@ -18,6 +18,16 @@
 ##
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
-
+import csv
+with open("data.csv","r") as file:
+    data = csv.reader(file,delimiter="\t")
+    for row in data:
+        col1 = row[0]
+        col5 = row[4].split(",")
+        cont = 0
+        for e in col5:
+            number = e.split(":")[1]
+            cont+=int(number)
+        print(col1,cont,sep=",")
 
 

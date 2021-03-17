@@ -24,4 +24,12 @@
 ##
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
-
+import csv
+month = []
+with open("data.csv",'r') as file:
+    x = csv.reader(file, delimiter="\t")
+    for data in x:
+        month.append(data[2].split("-")[1])
+listM = sorted(list(set(month)))
+for x in listM:
+    print(str(x)+","+str(month.count(x)))

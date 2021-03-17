@@ -21,7 +21,20 @@
 ##
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+import csv
+letters = []
+lista = []
+with open("data.csv", "r") as file:
+    data = csv.reader(file, delimiter="\t")
+    for row in data:
+        element = row[4].split(",")
+        for e in element:
+            letters.append(e.split(":")[0])
 
+lista = sorted(list(set(letters)))
+
+for l in lista:
+    print(l,letters.count(l), sep=",")
 
 
 

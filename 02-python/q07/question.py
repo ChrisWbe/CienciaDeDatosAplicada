@@ -23,4 +23,24 @@
 ##
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+import csv
+tuplas = []
+numbers = []
+with open("data.csv", "r") as file:
+    data = csv.reader(file, delimiter="\t")
+    for x in data:
+        tuplas.append((x[0], x[1]))
+        numbers.append(x[1])
+numbers = sorted(list(set(numbers)))
+
+
+for n in numbers:
+    letters = []
+    for t in tuplas:
+        if n == t[1]:
+            letters.append(t[0])
+    print((n,letters))
+
+#[print(listTupla[x]) for x in range(len(numbers))]
+
 

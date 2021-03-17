@@ -19,5 +19,14 @@
 ##
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+import csv
+
+with open("data.csv", "r") as file:
+    data = csv.reader(file, delimiter="\t")
+    for x in data:
+        col1 = x[0]
+        col4 = len(x[3].split(","))
+        col5 = len(x[4].split(","))
+        print(col1,col4,col5, sep=",")
 
 
