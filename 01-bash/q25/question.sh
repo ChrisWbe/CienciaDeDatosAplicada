@@ -6,3 +6,4 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+grep -e Oct -e Nov -e Dec *.txt | wc -l

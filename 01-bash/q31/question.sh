@@ -6,3 +6,4 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+wc -l *.txt | sort -k 1

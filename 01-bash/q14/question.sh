@@ -7,3 +7,4 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+sort -k 1 person |csvcut -c 3| head -n 2 | tail -n 1

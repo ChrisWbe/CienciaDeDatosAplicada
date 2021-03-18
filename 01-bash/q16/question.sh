@@ -7,3 +7,4 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+csvcut -c city person | grep -v 'Albuquerque (New Mexico)' | head -n -1 | wc -l

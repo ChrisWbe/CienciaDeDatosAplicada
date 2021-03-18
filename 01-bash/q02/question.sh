@@ -23,3 +23,6 @@
 ##
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+archivos=$(ls *.csv)
+
+echo $archivos 

@@ -6,3 +6,4 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+grep -e Jul -e Aug -e Sep *.txt | wc -l

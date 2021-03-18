@@ -7,3 +7,4 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+head -n 11 data.csv | tail -n 1 | cut -d "," -f 1 | sed 's/"//g'

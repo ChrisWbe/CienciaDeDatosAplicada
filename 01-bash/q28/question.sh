@@ -7,3 +7,4 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+cat *.txt | csvcut -c ccn | cut -d "-" -f 2 |grep 1192| wc -l

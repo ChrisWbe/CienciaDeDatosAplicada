@@ -7,3 +7,4 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+csvcut -c city person | grep -v 'Anaheim (California)' | head -n -1 | wc -l
