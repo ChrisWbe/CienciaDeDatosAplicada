@@ -14,4 +14,7 @@
 ##
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
-
+import pandas as pd
+df = pd.read_csv('tbl0.tsv',sep='\t')
+df['ano'] = list(map(lambda x: x.split('-')[0], df['_c3']))
+print(df)

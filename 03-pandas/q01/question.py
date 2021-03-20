@@ -16,3 +16,7 @@
 ##
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+import pandas as pd
+df = pd.read_csv("data.tsv",sep='\t')
+_c1 = df.groupby('_c1')['_c0'].count()
+print(_c1)

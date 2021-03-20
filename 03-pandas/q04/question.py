@@ -10,4 +10,7 @@
 ##
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
-
+import pandas as pd
+df = pd.read_csv('tbl1.tsv','\t')['_c4'].unique()
+_c4 = list(map(lambda x: x.upper(),sorted(df)))
+print(_c4)
