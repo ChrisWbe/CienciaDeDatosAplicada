@@ -16,4 +16,7 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
-
+import pandas as pd
+df = pd.read_csv("tbl1.tsv", sep='\t')
+data = df.groupby('_c0')['_c4'].apply(lambda x: ",".join(e for e in sorted(x))).reset_index(name='lista')
+print(data)

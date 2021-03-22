@@ -18,5 +18,6 @@
 ##
 import pandas as pd
 df = pd.read_csv('tbl0.tsv',sep='\t')
-_c1 = df.groupby('_c1')['_c0'].all()
-print(_c1)
+data = df.groupby('_c1')['_c2'].apply(lambda x: ":".join( str(e) for e in sorted(x))).reset_index(name="lista")
+data.columns = ['_c0', 'lista']
+print(data)

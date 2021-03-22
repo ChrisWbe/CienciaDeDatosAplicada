@@ -20,4 +20,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-
+SELECT sql FROM sqlite_master;
