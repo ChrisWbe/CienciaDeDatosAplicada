@@ -16,5 +16,5 @@
 ##
 import pandas as pd
 df = pd.read_csv('tbl0.tsv','\t')
-df['suma'] = df[['_c0','_c2']].sum(axis=1)
+df['suma'] = df["_c0"]+df["_c2"]#df[['_c0','_c2']].sum(axis=1)
 print(df)
