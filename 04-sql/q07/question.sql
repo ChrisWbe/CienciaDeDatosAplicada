@@ -46,3 +46,17 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT
+    t1.K0,
+    t1.K1,
+    t1.c12,
+    t1.c13,
+    t1.c14,
+    t1.c15,
+    t1.c16
+FROM
+    tbl1 t1
+WHERE
+    t1.K0 <> 'A' AND t1.K0 <> 'B' AND t1.c13 <> 200 AND t1.c13 <> 900
+GROUP BY
+    t1.c14

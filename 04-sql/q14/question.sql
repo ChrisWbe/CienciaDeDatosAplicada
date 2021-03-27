@@ -46,3 +46,25 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+select
+    t1.k0,
+    avg(c21)
+from
+    tbl1 t1
+join(
+    select
+        k1,
+        c21
+    from
+        tbl2
+
+)t2
+on
+    (t1.k1 = t2.k1)
+where
+    t1.c13 > 400
+group by
+    t1.K0
+
+
+

@@ -41,3 +41,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT
+    SUBSTR(c14, 1,4) AS YEAR,
+    count(*) AS CANT
+FROM
+    tbl1
+WHERE
+    YEAR = '2018'

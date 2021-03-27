@@ -44,4 +44,12 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-
+SELECT
+    t0.K0,
+    t0.c01,
+    t0.c02,
+    t0.c03,
+    t0.c04
+FROM tbl0 t0
+WHERE
+    t0.c02 = 100 OR t0.c02 == 600

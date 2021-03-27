@@ -44,4 +44,12 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT
+    SUBSTR(t2.c23,1,4) as YEAR,
+    avg(c21)
+FROM
+    tbl2 t2
+GROUP BY
+    SUBSTR(t2.c23,1,4)
 
+    

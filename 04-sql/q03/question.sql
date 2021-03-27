@@ -25,4 +25,15 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-
+SELECT
+    t.K0,
+    t.K1,
+    t.c12,
+    t.c13,
+    t.c14,
+    t.c15,
+    t.c16
+FROM tbl t
+GROUP BY
+    t.c14
+LIMIT 5
