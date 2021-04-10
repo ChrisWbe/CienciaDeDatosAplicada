@@ -1,0 +1,317 @@
+_grade: 4.11
+_score: 100
+date: '2021-04-10 16:28:45.861904'
+tree:
+  00-hola-mundo/:
+    _grade: 5.0
+    _score: 1
+    tree:
+      q01/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+  01-bash/:
+    _grade: 4.68
+    _score: 1
+    tree:
+      q01/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q02/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q03/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q04/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q05/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q06/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q07/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q08/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q09/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q10/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q11/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q12/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q13/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q14/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q15/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q16/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q17/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q18/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q19/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q20/:
+        _grade: 0.0
+        _score: 1
+        tree: 0.0
+      q21/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q22/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q23/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q24/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q25/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q26/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q27/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q28/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q29/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q30/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q31/:
+        _grade: 0.0
+        _score: 1
+        tree: 0.0
+  02-python/:
+    _grade: 5.0
+    _score: 1
+    tree:
+      q01/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q02/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q03/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q04/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q05/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q06/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q07/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q08/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q09/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q10/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q11/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q12/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+  03-pandas/:
+    _grade: 5.0
+    _score: 1
+    tree:
+      q01/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q02/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q03/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q04/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q05/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q06/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q07/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q08/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q09/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q10/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q11/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+  04-sql/:
+    _grade: 5.0
+    _score: 1
+    tree:
+      q01/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q02/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q03/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q04/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q05/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q06/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q07/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q08/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q09/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q10/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q11/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q12/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q13/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+      q14/:
+        _grade: 5.0
+        _score: 1
+        tree: 5.0
+  05-matplotlib/:
+    _grade: 0.0
+    _score: 1
+    tree:
+      q01/:
+        _grade: 0.0
+        _score: 1
+        tree: 0.0
+      q02/:
+        _grade: 0.0
+        _score: 1
+        tree: 0.0
+      q03/:
+        _grade: 0.0
+        _score: 1
+        tree: 0.0
+2021-04-10 16:28:45.879851

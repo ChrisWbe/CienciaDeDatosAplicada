@@ -25,7 +25,7 @@ for x, y  in list(enumerate(data.index)):
   axs[x].set_title(y)
   axs[x].set_xticks(range(3))
   axs[x].set_xticklabels(data.columns, rotation='vertical')
-  axs[x].margins(x=0.15, y=0.05) 
+  axs[x].margins(x=0.1, y=0.025) 
 
 axs[0].set_ylabel('Poblacion')
 fig.tight_layout()
