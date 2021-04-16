@@ -1,6 +1,6 @@
-_grade: 4.11
+_grade: 4.17
 _score: 100
-date: '2021-04-10 16:28:45.861904'
+date: '2021-04-16 10:42:47.048825'
 tree:
   00-hola-mundo/:
     _grade: 5.0
@@ -11,7 +11,7 @@ tree:
         _score: 1
         tree: 5.0
   01-bash/:
-    _grade: 4.68
+    _grade: 5.0
     _score: 1
     tree:
       q01/:
@@ -91,9 +91,9 @@ tree:
         _score: 1
         tree: 5.0
       q20/:
-        _grade: 0.0
+        _grade: 5.0
         _score: 1
-        tree: 0.0
+        tree: 5.0
       q21/:
         _grade: 5.0
         _score: 1
@@ -135,9 +135,9 @@ tree:
         _score: 1
         tree: 5.0
       q31/:
-        _grade: 0.0
+        _grade: 5.0
         _score: 1
-        tree: 0.0
+        tree: 5.0
   02-python/:
     _grade: 5.0
     _score: 1
@@ -314,4 +314,4 @@ tree:
         _grade: 0.0
         _score: 1
         tree: 0.0
-2021-04-10 16:28:45.879851
+2021-04-16 10:42:47.074774
