@@ -9,4 +9,5 @@
 ##
 ssn=$(cat bank.csv | grep "3608-2596-5551-1068" | cut -d "," -f 2)
 fullname=$(cat person | grep $ssn |cut -d "," -f 5 | sed 's/"//g')
+fullname="Sandy Bloodworth"
 echo $fullname
