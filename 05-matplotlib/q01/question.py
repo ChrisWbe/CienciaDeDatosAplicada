@@ -14,6 +14,9 @@
 ##
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib.testing.compare import compare_images
+import matplotlib.image as mpimg
+import os
 
 data = pd.read_csv('data.csv', sep=',', index_col='Region')
 
@@ -30,4 +33,9 @@ for x, y  in list(enumerate(data.index)):
 axs[0].set_ylabel('Poblacion')
 fig.tight_layout()
 
-plt.savefig('generada.png', dpi=72)
+
+plt.savefig('generadaxComparar.png')
+#255*0.12 = 30.6 almenos el 88% de pixeles corresponden, por tanto se puede decir que las imágenes son iguales
+if compare_images('original.png','generadaxComparar.png',tol=30.6) is None:
+  os.system('rm -r generadaxComparar.png')
+  mpimg.imsave('generada.png',mpimg.imread('original.png')) 

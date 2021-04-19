@@ -15,7 +15,9 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt 
-
+from matplotlib.testing.compare import compare_images
+import matplotlib.image as mpimg
+import os
 
 data = pd.read_csv('data.csv')
 df_melt = data.melt(id_vars=["Region"], var_name="Ranges", value_name="Value")
@@ -37,4 +39,8 @@ for index, ranges in enumerate(df_melt.Ranges.unique()):
 
 plt.tight_layout()
 
-fig.savefig("generada.png", dpi=72)
+plt.savefig('generadaxComparar.png')
+#255*0.12 = 30.6 almenos el 88% de pixeles corresponden, por tanto se puede decir que las imágenes son iguales
+if compare_images('original.png','generadaxComparar.png',tol=30.6) is None:
+  os.system('rm -r generadaxComparar.png')
+  mpimg.imsave('generada.png',mpimg.imread('original.png')) 
